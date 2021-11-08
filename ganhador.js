@@ -28,7 +28,10 @@ function ganhador(id) {
         tdGanhador = document.getElementById(id)
         tdGanhador = tdGanhador.innerText
         alert('ganhador ' + tdGanhador)
-    }else {
-        alert("Não Houve Ganhador!")
+    } else if (td1 != "" && td2 != "" && td3 != "" && td4 != "" && td5 != "" && td6 != "" && td7 != "" && td8 != "" && td9 != "") {
+        alert("Nenhum ganhador")
     }
+    //if (){
+    //    alert("Não Houve Ganhador!")
+    //}
 } 
