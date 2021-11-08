@@ -28,5 +28,7 @@ function ganhador(id) {
         tdGanhador = document.getElementById(id)
         tdGanhador = tdGanhador.innerText
         alert('ganhador ' + tdGanhador)
+    }else {
+        alert("Não Houve Ganhador!")
     }
 } 
