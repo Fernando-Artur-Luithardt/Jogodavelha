@@ -1,7 +1,6 @@
 function ganhador(id) {
     //chamar todos dados da tabela
     td1 = document.getElementById(1.1).innerText
-
     td2 = document.getElementById(1.2).innerText
     td3 = document.getElementById(1.3).innerText
     td4 = document.getElementById(2.1).innerText
@@ -16,6 +15,7 @@ function ganhador(id) {
         || (td1 == td5 && td5 == td9 && td1 != "" && td5 !="" && td9 !="") || (td3 == td5 && td5 == td7 && td3 != "" && td5 !="" && td7 !="")) {
         tdGanhador = document.getElementById(id).innerText
         alert('ganhador ' + tdGanhador)
+
     } else if (td1 != "" && td2 != "" && td3 != "" && td4 != "" && td5 != "" && td6 != "" && td7 != "" && td8 != "" && td9 != "") {
         alert("Nenhum ganhador")
     }
