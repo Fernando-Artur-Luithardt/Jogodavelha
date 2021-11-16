@@ -16,7 +16,27 @@ function ganhador(id) {
         tdGanhador = document.getElementById(id).innerText
         alert('ganhador ' + tdGanhador)
 
+        document.getElementById('1.1').innerText = ""
+        document.getElementById('1.2').innerText = ""
+        document.getElementById('1.3').innerText = ""
+        document.getElementById('2.1').innerText = ""
+        document.getElementById('2.2').innerText = ""
+        document.getElementById('2.3').innerText = ""
+        document.getElementById('3.1').innerText = ""
+        document.getElementById('3.2').innerText = ""
+        document.getElementById('3.3').innerText = ""
+
+
     } else if (td1 != "" && td2 != "" && td3 != "" && td4 != "" && td5 != "" && td6 != "" && td7 != "" && td8 != "" && td9 != "") {
         alert("Nenhum ganhador")
+        document.getElementById('1.1').innerText = ""
+        document.getElementById('1.2').innerText = ""
+        document.getElementById('1.3').innerText = ""
+        document.getElementById('2.1').innerText = ""
+        document.getElementById('2.2').innerText = ""
+        document.getElementById('2.3').innerText = ""
+        document.getElementById('3.1').innerText = ""
+        document.getElementById('3.2').innerText = ""
+        document.getElementById('3.3').innerText = ""
     }
 } 
