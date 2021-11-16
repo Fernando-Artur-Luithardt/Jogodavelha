@@ -1,7 +1,7 @@
-var P1 = "X"
-var P2 = "O"
+let P1 = "X"
+let P2 = "O"
 
-var sinal = P1
+let sinal = P1
 
 function marcar(id) {
     
