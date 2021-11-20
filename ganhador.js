@@ -10,8 +10,9 @@ function ganhador(id) {
     td8 = document.getElementById(3.2).innerText
     td9 = document.getElementById(3.3).innerText
 
-    if((td1 == td4 && td4 == td7 && td1 != "" && td4 !="" && td7 !="") || (td2 == td5 && td5 == td8 && td2 != "" && td5 !="" && td8 !="") || (td3 == td6 && td6 == td9 && td3 != "" && td6 !="" && td9 !="")
-        || (td1 == td2 && td2 == td3 && td1 != "" && td2 !="" && td3 !="") || (td4 == td5 && td5 == td6 && td4 != "" && td5 !="" && td6 !="") || (td7 == td8 && td8 == td9 && td7 != "" && td8 !="" && td9 !="")
+    if((td1 == td4 && td4 == td7 && td1 != "" && td4 !="" && td7 !="") || (td2 == td5 && td5 == td8 && td2 != "" && td5 !="" && td8 !="")
+        || (td3 == td6 && td6 == td9 && td3 != "" && td6 !="" && td9 !="") || (td1 == td2 && td2 == td3 && td1 != "" && td2 !="" && td3 !="")
+        || (td4 == td5 && td5 == td6 && td4 != "" && td5 !="" && td6 !="") || (td7 == td8 && td8 == td9 && td7 != "" && td8 !="" && td9 !="")
         || (td1 == td5 && td5 == td9 && td1 != "" && td5 !="" && td9 !="") || (td3 == td5 && td5 == td7 && td3 != "" && td5 !="" && td7 !="")) {
         tdGanhador = document.getElementById(id).innerText
         alert('ganhador ' + tdGanhador)
