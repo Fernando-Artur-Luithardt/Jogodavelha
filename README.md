@@ -1,3 +1,2 @@
-<h1><CONTADOR</h1>
+<h1><a href = "https://jogodavelha-fernando.netlify.app/">CLIQUE PARA JOGAR</a></h1>
   
-https://jogodavelha-fernando.netlify.app/
