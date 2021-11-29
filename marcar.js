@@ -3,10 +3,8 @@ let P2 = "O"
 
 let sinal = P1
 
-function marcar(id) {
+function marcar(td) {
     
-    //Apontar para td pelo id recebido
-    td = document.getElementById(id)
     //se já tiver sido marcado retornar
     if(td.innerText != "") return
     //colocar o texto no td indicado pelo id acima
@@ -17,5 +15,5 @@ function marcar(id) {
     }else{
         sinal = "X"
     }
-    ganhador(id)
+    verificaGanhador(td.id)
 }
